@@ -1,4 +1,3 @@
-package com.example.vibhavkotriwala.advancedcalculator;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,9 +11,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.vibhavkotriwala.advancedcalculator.R;
+
 public class chemeleActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btnatm;
     private TextView textView22;
+    public TextView textView15;
     private EditText editText22;
     String [] elements = {
             "actinium", "aluminum", "americium", "antimony", "argon", "arsenic", "astatine", "barium", "berkelium", "beryllium", "bismuth", "bohrium", "boron", "bromine", "cadmium", "calcium", "californium", "carbon", "cerium", "cesium", "chlorine", "chromium", "cobalt", "copper", "curium", "dubnium", "dysprosium", "einsteinium", "erbium", "europium", "eermium", "fluorine", "francium", "gadolinium", "gallium", "germanium", "gold", "hafnium", "hassium", "helium", "holmium", "hydrogen", "indium", "iodine", "iridium", "iron", "krypton", "lanthanum", "lawrencium", "lead", "lithium", "lutetium", "magnesium", "manganese", "meitnerium", "mendelevium", "mercury", "molybdenum", "neodymium", "neon", "neptunium", "nickel", "niobium", "nitrogen", "nobelium", "osmium", "oxygen", "palladium", "phosphorus", "platinum", "plutonium", "polonium", "potassium", "praseodymium", "promethium", "protactinium", "radium", "radon", "rhenium", "rhodium", "rubidium", "ruthenium", "rutherfordium", "samarium", "scandium", "seaborgium", "selenium", "silicon", "silver", "sodium", "strontium", "sulfur", "tantalum", "technetium", "tellurium", "terbium", "thallium", "thorium", "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "xenon", "ytterbium", "yttrium", "zinc", "zirconium"
@@ -476,15 +478,19 @@ public class chemeleActivity extends AppCompatActivity implements View.OnClickLi
                 }
                 if (a.equals("zirconium")){
                     textView22.setText("91.22");
-
                 }
 
+//                printApi();
+
                 break;
-
-
-
         }
-
     }
+
+//    public void printApi() {
+//        NumbersApi numbersApi = new NumbersApi();
+//        String answer = textView22.getText().toString();
+//        int num = Integer.valueOf(answer);
+//        textView15.setText(String.valueOf(answer + "\n" + numbersApi.getResponse(num)));
+//    }
 
 }

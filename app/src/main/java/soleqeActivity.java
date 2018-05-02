@@ -1,4 +1,3 @@
-package com.example.vibhavkotriwala.advancedcalculator;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.vibhavkotriwala.advancedcalculator.R;
 
 import java.util.ArrayList;
 

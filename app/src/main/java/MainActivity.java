@@ -1,4 +1,3 @@
-package com.example.vibhavkotriwala.advancedcalculator;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,11 +12,17 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.vibhavkotriwala.advancedcalculator.R;
+
 import java.util.Collection;
 
 import javax.microedition.khronos.egl.EGLDisplay;
 
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
     private Button btnper, btnrot, btndec, btnbsp, btnclr, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnadd, btnsub, btnmul, btndiv, btnsin, btncos, btntan, btnlog, btnequ;
     private TextView textView, textView2;
 
